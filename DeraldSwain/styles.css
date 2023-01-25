@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(38, 42, 60);
+  color: rgb(255, 255, 255);
+  font-family: Calibri, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Navbar Formating */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(9, 11, 22, 0.7);
+  }
+li {
+    float: left;
+  }
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Navbar Hover */
+li a:hover {
+  color: darkgrey;
+}
+
+/* Images for Home/Class Page */
+.flex-item img{
+  width:100%;
+}
+.flex-item {
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+.flex-container, .other-flex-container{
+  display:flex;
+  flex-direction: row;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #29582a;
+  cursor: help;
+}
+
+/* Mobile/Tablet Settings */
+@media only screen and (max-width: 750px) {
+  .Mobile {
+    display: none;
+  }
+  li {
+    float: none;
+    left: 42%;
+    position: relative;
+  }
+  .flex-item img{
+    width:90%;
+  }
+  .flex-container{
+    display:block;
+  }
+}
+@media only screen and (max-width:1250px) {
+  .other-flex-container{
+    display:inherit
+  }
+}
+
+/* Other Stuff */
+.HomeBars {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: none;
+  text-align: center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  background-repeat: no-repeat;
+}
+
+/* Page Bars' Image Backgrounds */
+#Class1Bar{
+  background-color: darkolivegreen;
+}
+#Class2Bar{
+  background-color: darkgreen;
+}
+#Class3Bar{
+  background-color: darkslategrey;
+}
