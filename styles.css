@@ -86,14 +86,3 @@ button:hover {
   margin: 20px;
   background-repeat: no-repeat;
 }
-
-/* Page Bars' Image Backgrounds */
-#Class1Bar{
-  background-color: darkolivegreen;
-}
-#Class2Bar{
-  background-color: darkgreen;
-}
-#Class3Bar{
-  background-color: darkslategrey;
-}
