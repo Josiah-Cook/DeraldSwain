@@ -55,8 +55,14 @@ button:hover {
   cursor: help;
 }
 
+#logo {
+  width: 50;
+}
 /* Box Positions */
 @media only screen and (max-width: 750px) {
+  .Mobile {
+    display: none;
+  }
   li {
     float: none;
     left: 42%;
