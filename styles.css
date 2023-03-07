@@ -36,12 +36,12 @@ body {
 /* Logo Formatting */
 .navlogo {
   border-radius: 15px;
-  max-width: 180px;
+  max-width: 200px;
   background-color: rgb(26, 29, 41);
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-433%);
+  transform: translate(-50%,-400%);
 }
 
 .navlogo a {
@@ -117,12 +117,18 @@ button:hover {
 }
 
 /* Other Stuff */
-.randomimages{
+.ClubFlyer{
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 35%;
-  padding: 32px 32px;
+  padding: 40px 40px;
+  border-radius: 15px;
+
+}
+
+.DeraldPhoto {
+  max-width: 100%;
 }
 
 .Syllabi{
@@ -138,6 +144,7 @@ button:hover {
   text-decoration: underline;
   text-decoration: bold;
 }
+
 #logo {
   max-width: 150;
 }
